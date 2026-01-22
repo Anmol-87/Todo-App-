@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Todo-App-/", // 👈 REQUIRED for GitHub Pages
+  base: "/Todo-App-/", // 👈 MUST MATCH REPO NAME EXACTLY
 });
